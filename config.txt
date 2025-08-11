@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/zsh
 # External Recon Quick Config
 export GOROOT=/usr/lib/go-1.21/
 export GOPATH=$HOME/go
@@ -30,4 +30,5 @@ pipx install /root/tools/checkdmarc
 mkdir -p /root/project/output/dns
 mkdir -p /root/project/output/web
 touch /root/project/output/dns/source_recon
+
 cd /root/project
